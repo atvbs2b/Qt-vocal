@@ -15,7 +15,7 @@ DATA_FILE = "songs_data.json"  # 保存するファイル名
 class VocaloidManager(QMainWindow):
   def __init__(self):
     super().__init__()
-    self.setWindowTitle("ボカロ管理アプリ")
+    self.setWindowTitle("ボカロ管理")
     self.setGeometry(100, 100, 700, 400)
 
     self.songs_data = []
